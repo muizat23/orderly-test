@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="orderly-bg" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#14806f"/>
+      <stop offset="100%" stop-color="#0a463c"/>
+    </linearGradient>
+    <linearGradient id="orderly-top" x1="17" y1="15" x2="47" y2="31" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+    <linearGradient id="orderly-left" x1="17" y1="23" x2="32" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0e8376"/>
+      <stop offset="100%" stop-color="#0a5c53"/>
+    </linearGradient>
+    <linearGradient id="orderly-right" x1="32" y1="31" x2="47" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#08473f"/>
+      <stop offset="100%" stop-color="#05302a"/>
+    </linearGradient>
+    <linearGradient id="orderly-amber" x1="26" y1="17" x2="40" y2="36" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#fcd34d"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <filter id="orderly-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2.5" stdDeviation="2.5" flood-color="#021c17" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- App Squircle Background with Micro-Border -->
+  <rect width="64" height="64" rx="16" fill="url(#orderly-bg)"/>
+  <rect x="0.75" y="0.75" width="62.5" height="62.5" rx="15.25" stroke="#ffffff" stroke-opacity="0.16" stroke-width="1.5"/>
+
+  <!-- Isometric Fulfillment Box / Orderly Monogram -->
+  <g filter="url(#orderly-shadow)">
+    <!-- Top Face (Mint Emerald) -->
+    <path d="M32 14.5L47 23L32 31.5L17 23L32 14.5Z" fill="url(#orderly-top)"/>
+
+    <!-- Left Face (Deep Emerald Teal) -->
+    <path d="M17 23L32 31.5V48L17 39.5V23Z" fill="url(#orderly-left)"/>
+
+    <!-- Right Face (Pine Contrast) -->
+    <path d="M32 31.5L47 23V39.5L32 48V31.5Z" fill="url(#orderly-right)"/>
+
+    <!-- Precision Ribbon Tape (Warm Amber #f2a33a) -->
+    <path d="M27.5 17L36.5 22.1L32.5 24.4L23.5 19.3L27.5 17Z" fill="url(#orderly-amber)"/>
+    <path d="M32.5 24.4L36.5 22.1V35L32.5 37.3V24.4Z" fill="#d97706"/>
+
+    <!-- Central Fulfillment Verification Check Badge -->
+    <circle cx="32" cy="31.5" r="5" fill="#ffffff"/>
+    <path d="M29.8 31.5L31.3 33L34.5 29.8" stroke="#0f6b5c" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
